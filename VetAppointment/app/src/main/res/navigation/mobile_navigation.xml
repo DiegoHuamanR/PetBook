@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.vetappointment.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/nav_registro"
+        android:name="com.example.vetappointment.ui.registro.RegistroFragment"
+        android:label="Registro"
+        tools:layout="@layout/fragment_registro" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.vetappointment.ui.gallery.GalleryFragment"
+        android:label="Reserva de Citas"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.vetappointment.ui.slideshow.SlideshowFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/consulta"
+        android:name="com.example.vetappointment.ui.consulta.ConsultaFragment"
+        android:label="Consulta"
+        tools:layout="@layout/fragment_consulta" />
+</navigation>
