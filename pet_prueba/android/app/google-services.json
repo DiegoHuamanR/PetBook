@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "821289136679",
+    "project_id": "petbook-6473c",
+    "storage_bucket": "petbook-6473c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821289136679:android:cf5d8f32264acf37d89402",
+        "android_client_info": {
+          "package_name": "com.example.pet_prueba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821289136679-dvpplsllqpc8anp2alnasdbft8lf7j57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4pqcO8Skh0bbfTcjBcl_4HWFwf_7GVb0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821289136679-dvpplsllqpc8anp2alnasdbft8lf7j57.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "821289136679-404ufes567hvt30t8k6tba3o3d4bio06.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.petPrueba"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
